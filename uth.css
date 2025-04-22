@@ -33,6 +33,7 @@ body{
     font-weight: bolder;
     color: white;
     font-size: 20px;
+    border: none;
 }
 
 .f1st{
@@ -142,6 +143,7 @@ body{
     background-color: rgb(12, 7, 11);
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
+    border: transparent;
     color: white;
     font-size: 60px;
     transition-duration: 0.4s;
