@@ -2,6 +2,7 @@
     padding: 30px;
     color: white;
     font-size: 20px;
+    text-decoration: none;
 }
 
 body{
@@ -32,7 +33,7 @@ body{
     padding: 10px 30px 10px 30px;
     font-weight: bolder;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     border: none;
 }
 
@@ -149,7 +150,7 @@ body{
     transition-duration: 0.4s;
 }
 .num:hover {
-    background-color: #000738;
+    background-color: orangered;
     color: white;
 }
 
@@ -262,4 +263,10 @@ button > img{
     margin: 30px;
     box-shadow: none;
     border: none;
+}
+
+.buttttt{
+    width: 100px;
+    height: 70px;
+
 }
