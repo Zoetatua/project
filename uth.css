@@ -259,4 +259,5 @@ button > img{
     border-radius: 100%;
     margin: 30px;
     box-shadow: none;
+    border: none;
 }
