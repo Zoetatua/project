@@ -243,3 +243,17 @@ textarea{
     width: 90%;
     height: 100px;
 }
+
+#content-container .content {
+    display: none;
+}
+
+button > img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.buttt{
+    border-radius: 100%;
+    margin: 30px;
+}
