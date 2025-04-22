@@ -250,10 +250,13 @@ textarea{
 
 button > img{
     width: 100px;
+    height: 100px;
     border-radius: 100%;
 }
 
 .buttt{
+    background-color: transparent;
     border-radius: 100%;
     margin: 30px;
+    box-shadow: none;
 }
