@@ -69,7 +69,6 @@ body{
     color: white;
     font-size: 40px;
     font-weight: bolder;    
-    width: 600px;
     margin: auto;
     padding-bottom: 60px;
 }
@@ -102,17 +101,23 @@ body{
     border: 1px solid gray;
     border-radius: 10px;
     padding: 30px;
+    background-color: transparent;
+    transition-duration: 0.4s;
+}
+.bord:hover{
+    background-color: #01051E;
 }
 
-div.bord > p {
+.wording {
     color: white;
     font-size: 30px;
     font-weight: bold;
 }
 
-div.bord > p.pp {
+.pp {
+    color: white;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .fles{
@@ -121,6 +126,7 @@ div.bord > p.pp {
     margin-left: 100px;
     gap: 100px;
 }
+
 
 .oth{
     color: white;
@@ -133,7 +139,107 @@ div.bord > p.pp {
     padding-top: 100px;
 }
 .num{
-    background-color: black;
-    padding: 40px;
+    background-color: rgb(12, 7, 11);
+    padding: 10px 30px 10px 30px;
     border-radius: 10px;
+    color: white;
+    font-size: 60px;
+    transition-duration: 0.4s;
+}
+.num:hover {
+    background-color: #000738;
+    color: white;
+}
+
+.calss{
+    width: 600px;
+}
+
+.header-navbar {
+    position:fixed;
+    top:0;
+}
+
+hr{
+    border: 2px solid white;
+    opacity: 1;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sticky-top{
+    background-color: #01051E;
+    opacity: 0.9;
+}
+
+li > a{
+    color: white;
+    text-align: left;
+}
+
+li{
+    list-style: none;
+    text-align: left;
+}
+
+
+.emal {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+.emal input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    min-width: 200px;
+  }
+.emal button {
+    background-color: #ff7a00;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    padding: 10px 20px;
+  }
+
+.BIGI{
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+.fa-brands{
+    color: white;
+    padding: 10px;
+}
+
+.no6{
+    background-color: #010311;
+    padding: 90px;
+    border-radius: 10px;
+}
+
+.ss{
+    padding: 190px;
+
+}
+.ext{
+    padding: 30px;
+    font-size: 20px;
+}
+
+.col> input{
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    margin: 20px;
+}
+
+.but{
+    padding: 20px;
+}
+
+textarea{
+    width: 90%;
+    height: 100px;
 }

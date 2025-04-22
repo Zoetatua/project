@@ -10,23 +10,23 @@
     <script src="https://kit.fontawesome.com/5aaac37cee.js" crossorigin="anonymous"></script>
 </head>
 <body class="body">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid sile">
           <a class="navbar-brand both" href="#"><span class="uth">Kaizo</span><span class="man">Code.</span></a>
           
             <form class="d-flex">
-                <div class="sear">Home</div>
-                <div class="sear">Features</div>
-                <div class="sear">Testimonial</div>
-                <div class="sear">Pricing</div>
-                <div class="sear">Blog</div>
-                <div class="sear">Contact</div>
-                <button class="btnn but">Free Trial</button>
+                <a href="#home"class="sear">Home</a>
+                <a href="#feature"class="sear">Features</a>
+                <a href="#Testimonial"class="sear">Testimonial</a>
+                <a href="#Pricing"class="sear">Pricing</a>
+                <a href="#Blog"class="sear">Blog</a>
+                <a href="#Contact"class="sear">Contact</a>
+                <button class="btnn">Free Trial</button>
             </form>
         </div>
     </nav>
 
-    <div class="f1st">
+    <div class="f1st" id="home">
         <div class="barr1">
             <h1>Awesome App for your Financial.</h1>
             <p>This should be used to tell a story and let your user know a little more about app and its use, how it can benefit them</p>
@@ -35,28 +35,27 @@
         <div><img src="https://uthmancod-bankingsite.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhero.18546796.png&w=640&q=75" alt=""></div>
     </div>
 
-    <div class="container see">
+    <div class="container see" id="feature">
         <p class="f">Our Feature</p>
         <p class="bif">Easy to manage all your payment by our App</p>
 
 
         <div class="grids">
-            <div class="bord">
+            <button class="bord">
                 <i class="fa-solid fa-calendar-days"></i>
-                <p>Expenses</p>
+                <p class="wording">Expenses</p>
                 <p class="pp">We use an application designed a testing gnose to keep away</p>
-            </div>
-            <div class="bord">
+            </button>
+            <button class="bord">
                 <i class="fa-solid fa-chart-simple"></i>
-                <p>FInance Snapshot</p>
+                <p class="wording">FInance Snapshot</p>
                 <p class="pp">We use an application designed a testing gnose to keep away</p>
-            </div>
-            <div class="bord">
+            </button>
+            <button class="bord">
                 <i class="fa-solid fa-phone"></i>
-                
-                <p>Support 24/7</p>
+                <p class="wording">Support 24/7</p>
                 <p class="pp">We use an application designed a testing gnose to keep away</p>
-            </div>
+            </button>
         </div>
     </div>
 
@@ -67,7 +66,7 @@
         <div class="oth">
             <p class="f">Our Savings</p>
             <p class="bif">Easy to manage all your payment by our App</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, aperiam impedit! Voluptatibus quo quia earum voluptates commodi vero, facere voluptatem, ducimus nemo eligendi, delectus voluptas asperiores autem quod corrupti error?</p>
+            <p class="lore">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, aperiam impedit! Voluptatibus quo quia earum voluptates commodi vero, facere voluptatem, ducimus nemo eligendi, delectus voluptas asperiores autem quod corrupti error?</p>
             <button class="btnn">Read More</button>
         </div>
     </div>
@@ -77,26 +76,161 @@
         <h2 class="bif">Grow up your money saving</h2>
         <div class="row">
             <div class="col">
-                <p><span class="num">1</span></p>
-                <p>Expenses</p>
-                <p>We use an application designed a testing gnose to keep away</p>
+                <button class="num">1</button>
+                <p class="wording">Expenses</p>
+                <p class="pp">We use an application designed a testing gnose to keep away</p>
             </div>
 
             <div class="col">
-                <p><span class="num">2</span></p>
-                <p>Setup your Profile</p>
-                <p>We use an application designed a testing gnose to keep away</p>
+                <button class="num">2</button>
+                <p class="wording">Setup your Profile</p>
+                <p class="pp">We use an application designed a testing gnose to keep away</p>
             </div>
 
             <div class="col">
-                <p><span class="num">3</span></p>
-                <p>Enjoy the feature</p>
-                <p>We use an application designed a testing gnose to keep away</p>
+                <button class="num">3</button>
+                <p class="wording">Enjoy the feature</p>
+                <p class="pp">We use an application designed a testing gnose to keep away</p>
             </div>
         </div>
     </div>
+    
 
     
+    <div class="container text-center ben">
+        <p class="f">User Review</p>        
+        <h2 class="bif calss">What Client Say About Our App After Using It</h2>
+        <button onclick="myFunction()">Click Me</button>
+        <button onclick="myFunction2()">Click Me</button>
+        <button onclick="myFunction3()">Click Me</button>
+        <button onclick="myFunction4()">Click Me</button>
+        <button onclick="myFunction5()">Click Me</button>
+
+        <div id="myDIV" style="display: none;">
+            <div>"I would recommend mobile banking site for anyone trying to get the word out about their business. It has saved me so much time!"</div>
+            <div>Markin Nesus</div>
+            <div>IOS developer</div>
+        </div>
+
+        <div id="myDIV2" style="display: none;">
+            <div>"I love mobile banking site! This is an amazing service and it has saved me and my small business so much time. I plan to use it for a long time to come."</div>
+            <div>Uthman Sarafa</div>
+            <div>React  developer</div>
+        </div>
+
+        <div id="myDIV3" style="display: none;">
+            <div>"If you are a business owner, and you don't have mobile banking site in your toolkit just yet, I highly recommend that you check it out."</div>
+            <div>Vera Duncan</div>
+            <div>Andriod developer</div>
+        </div>
+
+        <div id="myDIV4" style="display: none;">
+            <div>"I can't say enough about mobile banking site. mobile banking site has really helped our business."</div>
+            <div>Pirtle Karol</div>
+            <div>Angular developer</div>
+        </div>
+
+        <div id="myDIV5" style="display: none;">
+            <div>"I have been using mobile banking site for over a year now and I love it! I can't imagine life without it. It's so easy to use, and the customer service is great."</div>
+            <div>Mark Joe</div>
+            <div>Mobile developer</div>
+        </div>
+    </div>
+
+
+    <div></div>
+
+    <div></div>
+
+    <div class="ss container text-center ben">
+        <div class="wording">Download App Now and Save Your Money</div>
+        <div class="ext">Serving an impressive list of long-term money with experience and expertise in multiple industries</div>
+        <a href="https://play.google.com/">
+            <img src="./images.png" alt=""></a>
+        <a href="https://www.apple.com/app-store/">
+            <img src="./apple.png" alt=""></a>
+    </div>
+
+    <div class="ss container text-center ben" id="Contact">
+        <div class="f">Have a Question</div>
+        <div class="bif">Get In Touch</div>
+        <form action="">
+
+            <div class="row">
+                <div class="col">
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+                <div class="col">
+                    <input type="email" placeholder="Enter Your Email" required>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <input type="number" name="" id="" placeholder="Enter Your Phone" required>
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Enter Your Company">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea name="" id="" placeholder="Enter the message"></textarea>
+                </div>
+            </div>
+            
+        <button class="btnn but">Send Message</button>
+        </form>
+    </div>
+
+    <div class="no6 container text-start text-light ">
+        <div class="row">
+          <div class="col ">
+            <div class="BIGI">About App</div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, vero. Sapiente excepturi similique cupiditate id impedit esse deserunt ullam accusamus repellat quod vel reiciendis neque, quis quae delectus exercitationem consectetur?</div>
+            <div>Follow Us on 
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="BIGI">Quick Links</div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#feature">Feature</a></li>
+            <li><a href="#Testimonial">Testimonial</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </div>    
+
+
+          <div class="col">
+            <div class="BIGI">Help</div>
+            <li><a href="">About us</a></li>
+            <li><a href="">Patners</a></li>
+            <li><a href="">Career</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href="">Terms & Condition</a></li>
+            <li><a href="">Help</a></li>
+          </div>
+
+
+          <div class="col">
+            <div class="BIGI">Newsletter</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nobis enim odit, qui error repudiandae est aliquam, unde explicabo reprehenderit magnam distinctio voluptatibus velit at, soluta assumenda autem voluptatum consequuntur.</div>
+            <form action="" class="emal">
+                <input type="email" placeholder="Enter Your Email" required>
+                <button type="submit">></button></form>
+          </div>
+        </div>
+
+        <hr>
+        2025 © KaizoCode, All Rights Reserved.
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
 </body>
